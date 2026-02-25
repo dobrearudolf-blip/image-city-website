@@ -42,7 +42,7 @@ export function render(): string {
             </div>
             <div class="service-specs">
               <p class="service-specs-title">Technical Specs</p>
-              <p class="service-specs-text">P2.5 Indoor • 3840Hz refresh • 640×640 cabinets • GOB protection</p>
+              <p class="service-specs-text">P2.97 Indoor & Outdoor • 7680Hz refresh • 500×500mm cabinets</p>
             </div>
           </div>
 
@@ -81,7 +81,7 @@ export function render(): string {
               </div>
               <div class="service-feature">
                 <span class="check">✓</span>
-                <span>Portrait & landscape orientation</span>
+                <span>Portrait orientation</span>
               </div>
               <div class="service-feature">
                 <span class="check">✓</span>
@@ -104,16 +104,16 @@ export function render(): string {
         <p class="section-subtitle">Detailed specifications for our LED display inventory</p>
 
         <div class="accordion-container">
-          <div class="accordion-item" data-accordion="indoor">
+          <div class="accordion-item" data-accordion="led-panels">
             <button class="accordion-header">
-              <span>Indoor LED Panels</span>
+              <span>LED Panels (Indoor & Outdoor)</span>
               <span class="accordion-icon">${icons.plus}</span>
             </button>
             <div class="accordion-content">
               <div class="specs-table">
                 <div class="specs-row">
                   <span class="specs-label">Pixel Pitch</span>
-                  <span class="specs-value">P2.5, P3, P4</span>
+                  <span class="specs-value">P2.97</span>
                 </div>
                 <div class="specs-row">
                   <span class="specs-label">Resolution</span>
@@ -121,54 +121,15 @@ export function render(): string {
                 </div>
                 <div class="specs-row">
                   <span class="specs-label">Brightness</span>
-                  <span class="specs-value">800-1200 nits</span>
+                  <span class="specs-value">800-7000 nits (adjustable)</span>
                 </div>
                 <div class="specs-row">
                   <span class="specs-label">Refresh Rate</span>
-                  <span class="specs-value">3840Hz</span>
+                  <span class="specs-value">7680Hz</span>
                 </div>
                 <div class="specs-row">
                   <span class="specs-label">Cabinet Size</span>
-                  <span class="specs-value">640×640mm</span>
-                </div>
-                <div class="specs-row">
-                  <span class="specs-label">Protection</span>
-                  <span class="specs-value">GOB (Glue on Board)</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item" data-accordion="outdoor">
-            <button class="accordion-header">
-              <span>Outdoor LED Panels</span>
-              <span class="accordion-icon">${icons.plus}</span>
-            </button>
-            <div class="accordion-content">
-              <div class="specs-table">
-                <div class="specs-row">
-                  <span class="specs-label">Pixel Pitch</span>
-                  <span class="specs-value">P4, P5, P6, P8</span>
-                </div>
-                <div class="specs-row">
-                  <span class="specs-label">Resolution</span>
-                  <span class="specs-value">Full HD and above</span>
-                </div>
-                <div class="specs-row">
-                  <span class="specs-label">Brightness</span>
-                  <span class="specs-value">5000-7000 nits</span>
-                </div>
-                <div class="specs-row">
-                  <span class="specs-label">Refresh Rate</span>
-                  <span class="specs-value">3840Hz</span>
-                </div>
-                <div class="specs-row">
-                  <span class="specs-label">IP Rating</span>
-                  <span class="specs-value">IP65 front / IP54 rear</span>
-                </div>
-                <div class="specs-row">
-                  <span class="specs-label">Operating Temp</span>
-                  <span class="specs-value">-20°C to +50°C</span>
+                  <span class="specs-value">500×500mm</span>
                 </div>
               </div>
             </div>
